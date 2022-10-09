@@ -1,4 +1,4 @@
-import { useState, useEffect, useReducer, useRef, useMemo, useCallback } from 'react'
+import React, { useState, useEffect, useReducer, useRef, useMemo, useCallback } from 'react'
 import Sheet from './Components/Sheet'
 import Result from './Components/Result'
 import { ADD, NEXT, PREVIOUS, REMOVE, FINISH, SET_DEADEND, SET_ERROR, SET_LAST_ERROR_QUESTION_ID, SKIP_TRANSITION } from './Store/actions/wizard'
