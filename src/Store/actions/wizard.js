@@ -1,0 +1,10 @@
+export const NEXT = 'NEXT';
+export const PREVIOUS = 'PREVIOUS';
+export const ADD = 'ADD';
+export const REMOVE = 'REMOVE';
+export const SET_ANSWER = 'SET_ANSWER';
+export const SET_ERROR = 'SET_ERROR';
+export const FINISH = 'FINISH';
+export const SET_DEADEND = 'SET_DEADEND';
+export const SET_LAST_ERROR_QUESTION_ID = 'SET_LAST_ERROR_QUESTION_ID';
+export const SKIP_TRANSITION = 'SKIP_TRANSITION';
