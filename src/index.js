@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './index.css' // remove from production environment
+import './tailwind.min.css' // remove from development environment
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
