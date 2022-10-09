@@ -1,38 +1,60 @@
 {
-    "name": "react-form-wizard",
-    "version": "0.1.0",
-    "private": false,
-    "author": "Sourav Rakshit <sourav@itsrav.dev>",
-    "description": "React input data dependent form wizard",
-    "license": "ISC",
-    "keywords": ["react", "react form wizard", "react wizard tailwind css"],
-    "dependencies": {
-        "prop-types": "^15.8.1",
-        "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "web-vitals": "^3.0.3"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": ["react-app", "react-app/jest"]
-    },
-    "browserslist": {
-        "production": [">0.2%", "not dead", "not op_mini all"],
-        "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
-    },
-    "devDependencies": {
-        "@headlessui/react": "^1.7.3",
-        "@tailwindcss/forms": "^0.5.3",
-        "@tailwindcss/typography": "^0.5.7",
-        "autoprefixer": "~10.4.5",
-        "clsx": "^1.2.1",
-        "postcss": "^8.4.17",
-        "prettier": "^2.7.1",
-        "tailwindcss": "^3.1.8"
-    }
+  "name": "react-form-wizard",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Sourav Rakshit <sourav@itsrav.dev>",
+  "description": "React input data dependent form wizard",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "react form wizard",
+    "react wizard tailwind css"
+  ],
+  "dependencies": {
+    "@headlessui/react": "^1.7.3",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "~10.4.5",
+    "clsx": "^1.2.1",
+    "postcss": "^8.4.17",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.1.8",
+    "web-vitals": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@headlessui/react": "^1.7.3",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "~10.4.5",
+    "clsx": "^1.2.1",
+    "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8"
+  }
 }
